@@ -19,3 +19,6 @@ This project is a chatbot that utilizes the Gemini API for natural language proc
    ```bash
    $env:GEMINI_API_KEY = "your api key"                                                                                          
    > streamlit run ".py file path"
+
+
+linked_post:https://www.linkedin.com/posts/ansham-maurya-69ab80297_ai-chatbot-innovation-activity-7221821464419655681-sAB1?
