@@ -7,11 +7,6 @@ This project is a chatbot that utilizes the Gemini API for natural language proc
 - Communicate with the Gemini API to process and respond to user input.
 - Securely manage API keys and other sensitive information using environment variables.
 
-## Prerequisites
-
-- Python 3.x
-- An API key from Gemini (replace `GEMINI_API_KEY` in the `.env` file with your actual API key).
-
 ## Installation
 
 1. Clone the repository:
@@ -19,3 +14,8 @@ This project is a chatbot that utilizes the Gemini API for natural language proc
    ```bash
    git clone https://github.com/your-username/chatbot-gemini.git
    cd chatbot-gemini
+
+2. Run the App:
+   ```bash
+   $env:GEMINI_API_KEY = "your api key"                                                                                          
+   > streamlit run ".py file path"
